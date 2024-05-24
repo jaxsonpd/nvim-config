@@ -17,5 +17,7 @@ This updates the source then you can run:
 ```
 sudo apt-get install neovim
 ```
+Then once in neovim run :PackerSync to install all packages
+
 ## Sources:
 https://medium.com/nerd-for-tech/configuring-neovim-from-scratch-setting-up-ubuntu-3eb8135e5a71

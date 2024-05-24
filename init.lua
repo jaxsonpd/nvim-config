@@ -1,0 +1,2 @@
+-- [[ init.lua ]]
+-- Author: Jack Duignan (JackpDuignan@gmail.com)

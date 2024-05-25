@@ -19,6 +19,7 @@ sudo apt-get install neovim
 ```
 Then once in neovim run :PackerSync to install all packages
 
+## Installing Fonts
 A nerd font also needs to be installed this can be done by downloading the .ttf from https://github.com/ryanoasis/nerd-fonts and moving the file to .local/share/fonts/NerdFonts/. Log out then log back in and it will be available in the terminal
 
 ## Sources:

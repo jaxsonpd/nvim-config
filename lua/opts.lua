@@ -14,7 +14,10 @@ opt.fileencoding = 'utf8'
 -- [[ Theme ]]
 opt.syntax = "ON"
 opt.termguicolors = true
-cmd [[ colorscheme gruvbox ]]
+local ok, _ = pcall(vim.cmd, 'colorscheme gruvbox')
+if not ok then
+  vim.cmd 'colorscheme default' -- if the above fails, then use default
+end
 
 -- [[ Search ]]
 opt.ignorecase = true
